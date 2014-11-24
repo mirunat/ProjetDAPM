@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/howToPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/howToPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showRecords"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="How to play" />
+
+    <Button
+        android:id="@+id/showRecords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Show records" />
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="New game" />
+
+</RelativeLayout>
