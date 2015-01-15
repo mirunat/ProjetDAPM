@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DAPM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_poza_puzzle">PozaPuzzle</string>
+    <string name="title_activity_joc">Joc</string>
+    <string name="title_activity_intro">Intro</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_winner">Winner</string>
+    <string name="title">Difficulty</string>
+
+</resources>
