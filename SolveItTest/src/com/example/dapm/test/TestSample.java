@@ -25,15 +25,6 @@ public class TestSample extends ActivityInstrumentationTestCase2<MainActivity> {
     	final MainActivity a = getActivity();
     	 assertNotNull(a);
     }
-/*
-    @SmallTest
-    public void click(){
-        // Set up an ActivityMonitor
-        ActivityMonitor activityMonitor = getInstrumentation().addMonitor(MainActivity2.class.getName(), null, false);
 
-        //check if button is enabled
-        assertTrue("button is enabled", mButton2.isEnabled());
-        //click button
-        mButton2.performClick();*/
 
 }
